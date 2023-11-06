@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LIST_GROUP</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	<style>
+
+		.list-group-item:hover {
+			transition: background-color .5s, color .5s;
+
+		}
+		.list-group-item:hover {
+			background-color: grey;
+			color: white;
+/*			color grey nhi hoga bcz of list-group-item-action otherwise use list-group-item*/
+		}
+		/*.list-group-item-action:hover {
+			color: white;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+				<ul class="list-group">
+					<a href="#" class="list-group-item-action"><li class="list-group-item"> Home </li> </a>
+					<a href="#" class="list-group-item-action"><li class="list-group-item"> About </li> </a>
+					<a href="#" class="list-group-item-action"><li class="list-group-item"> Department </li> </a>
+					<a href="#" class="list-group-item-action"><li class="list-group-item"> Contact </li> </a>
+					<a href="#" class="list-group-item-action"><li class="list-group-item"> Services </li> </a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

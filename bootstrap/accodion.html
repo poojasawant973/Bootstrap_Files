@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Accordion</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4-mx-auto">
+				<div id="accordion">
+				<div class="card">
+					<div class="card-header bg-success"> <h5 data-toggle="collapse" data-target="#vision"> Vision </h5> </div>
+					<div class="collapse" id="vision" data-parent="#accordion">
+						<div class="card-body">
+							This are my vision of the department.
+					 	</div>
+					</div>
+				</div>     <!--  end of card 2 -->
+
+				<div class="card">
+					<div class="card-header"> <h5 data-toggle="collapse" data-target="#Misssion" > Misssion </h5> </div>
+					<div class="collapse" id="Misssion" data-parent="#accordion">
+						<div class="card-body">
+							This are my Mission of the department.
+					 	</div>
+					</div>
+				</div>     <!-- end of card 2 -->
+
+								<div class="card">
+					<div class="card-header"> <h5 data-toggle="collapse" data-target="#Goal"> Goal </h5> </div>
+					<div class="collapse" id="Goal" data-parent="#accordion">
+						<div class="card-body">
+							This are my Goal of the department.
+					 	</div>
+					</div>
+				</div>     <!-- end of card 3 -->
+			</div>
+
+			</div>	<!-- end of the col-md-4		 -->
+		</div>
+	</div>
+</body>
+</html>
